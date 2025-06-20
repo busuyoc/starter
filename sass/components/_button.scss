@@ -5,9 +5,8 @@
     text-decoration: none;
 
     padding: 1.5rem 4rem;
-    display: block;
-    margin: 0 auto;
-    width: 30rem;
+    display: inline-block;
+
     border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
@@ -44,6 +43,14 @@
 
     &::after {
       background-color: $color-white;
+    }
+  }
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
     }
   }
   &--animated {
